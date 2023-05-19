@@ -1,0 +1,68 @@
+*{  /* RESET*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    text-shadow: -3px 3px 2px #000000;
+}
+body{
+    height: 100%;
+    background-color: #0D67B5;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:  0px 126px;
+    background-image:url(../img/smartcities.jpg);
+    color: white;
+}
+nav{
+    width: 100%;
+    min-height: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px; 
+}
+main{
+    width: 100%;
+    /* min-height: calc(100vh - 8.5em); */
+    flex-grow: 1;
+    padding: 2em;
+    font-size: 20px;
+}
+h1{
+    justify-content: center;
+    display: flex;
+    font-size: 50px; 
+    color: white; 
+}
+main nav ul ol{
+    padding: 1em;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    column-count: 1 ;
+}
+main p{
+    justify-content: space-around;
+}
+
+.rodape{
+    font-size: 20px;
+    height: 387px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}
